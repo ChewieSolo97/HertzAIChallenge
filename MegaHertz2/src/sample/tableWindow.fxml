@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TableWindowController">
+   <children>
+      <Label layoutX="248.0" layoutY="55.0" text="Make:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="245.0" layoutY="85.0" text="Model:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" layoutY="113.0" text="Miles:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="142.0" text="Year:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="202.0" layoutY="171.0" text="Days Rented:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="199.0" text="Number of Repairs:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="225.0" text="Average Engine RPM:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="makeLabel" layoutX="314.0" layoutY="55.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="modelLabel" layoutX="314.0" layoutY="85.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="milesLabel" layoutX="314.0" layoutY="113.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="yearLabel" layoutX="314.0" layoutY="142.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="daysRentedLabel" layoutX="314.0" layoutY="171.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="numOfRepairsLabel" layoutX="314.0" layoutY="199.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="avgeEngRPMLabel" layoutX="314.0" layoutY="225.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="percentYes" layoutX="285.0" layoutY="291.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="percentNo" layoutX="285.0" layoutY="307.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="result" alignment="CENTER" layoutX="71.0" layoutY="354.0" prefHeight="17.0" prefWidth="463.0" text="Label">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="back" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToMain" text="New Prediction" />
+      <Label layoutX="218.0" layoutY="267.0" text="Predicted Confidence Level:">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

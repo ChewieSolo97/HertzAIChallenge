@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.inputScreenController">
+   <children>
+      <TextField fx:id="make" alignment="CENTER" layoutX="205.0" layoutY="158.0" promptText="Make" />
+      <TextField fx:id="model" alignment="CENTER" layoutX="205.0" layoutY="218.0" promptText="Model" />
+      <TextField fx:id="miles" alignment="CENTER" layoutX="205.0" layoutY="275.0" promptText="Miles" />
+      <TextField fx:id="year" alignment="CENTER" layoutX="205.0" layoutY="338.0" promptText="Year" />
+      <ImageView fitHeight="79.0" fitWidth="200.0" layoutX="189.0" layoutY="26.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Hertz-Logo-Primary-RGB.PNG" />
+         </image>
+      </ImageView>
+      <TextField fx:id="daysRented" alignment="CENTER" layoutX="205.0" layoutY="398.0" promptText="Days Rented" />
+      <TextField fx:id="numOfRepairs" alignment="CENTER" layoutX="205.0" layoutY="455.0" promptText="Number of Repairs" />
+      <TextField fx:id="avgEngRPM" alignment="CENTER" layoutX="205.0" layoutY="514.0" promptText="Avg Engine RPM" />
+      <Button fx:id="submit" layoutX="205.0" layoutY="559.0" mnemonicParsing="false" onAction="#addTarget" prefHeight="27.0" prefWidth="167.0" text="Make Prediction">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="205.0" layoutY="135.0" text="Make">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="193.0" text="Model">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="251.0" text="Miles">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="310.0" text="Year">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="374.0" text="Days Rented">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="431.0" text="Number of Repairs">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="489.0" text="Average Engine RPM">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
